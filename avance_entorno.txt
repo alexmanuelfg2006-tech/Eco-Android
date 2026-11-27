@@ -1,0 +1,14 @@
+Proyecto: Eco-Android
+Fecha: 2026-11-27
+Entorno: Debian 13 (Trixie) en VirtualBox 7.2.22, kernel 6.12.118+deb13-amd64
+
+Estado del entorno:
+- cgroups v2 montado y activo en /sys/fs/cgroup.
+- Módulos zram, lz4hc_compress y lz4_compress cargados.
+- Compilación de vboxvideo en VirtualBox Guest Additions pendiente/con error en kernel 6.12.
+- Repositorio clonado en /home/richard/Eco-Android.
+
+Pendientes inmediatos:
+- Configurar y verificar zRAM (zramctl / free -h).
+- Revisar o ajustar límites de CPU / cgroups v2.
+- Crear y probar el script de monitoreo del sistema.
