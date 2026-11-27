@@ -1,9 +1,14 @@
 # Eco-Android
 
-### integrantes
-Alexander Ferreira
-Richard Rodriguez
-Kennyarlys Linares
+Entorno contenedorizado mínimo para Android sobre **Debian 13 (Trixie)** con kernel `6.12.118` en arranque UEFI.
 
-### Objetivo General
-Desarrollar un sistema operativo basado en un núcleo linux minimalista y contenedores android optimizados (Eco-Android) para la reutilización eficiente de terminales x86_64 de bajo consumo
+## Integrantes
+- Richard Rodríguez
+- Alexander Ferreira
+- Kennyarlys Linares
+
+## Verificaciones iniciales (Debian 13)
+- Firmware UEFI activo y particionado GPT/UEFI (`sda1` EFI, `sda2` ext4, `sda3` swap).
+- `cgroups v2` (`cgroup2fs`) habilitado.
+- Módulos `zram` (`lz4`, `lz4hc`) y `binder_linux` cargados.
+- Estructura base en `container/rootfs/`, `scripts/init_container.sh` y `docs/avance_inicio.txt`.

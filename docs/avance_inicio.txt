@@ -1,0 +1,15 @@
+jue 26 nov 2026 23:43:58 -04
+Linux debian 6.12.118+deb13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.118-1 (2026-11-20) x86_64 GNU/Linux
+UEFI ACTIVO
+NAME   FSTYPE FSVER LABEL UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+sda                                                                           
+├─sda1 vfat   FAT32       B8BA-7D53                             748,4M     1% /boot/efi
+├─sda2 ext4   1.0         f64d28b6-6d9f-43f7-8771-f8d63c4991c2    6,9G    14% /
+└─sda3 swap   1           bf690415-a32f-475d-9a28-ee167133c9e0                [SWAP]
+sr0                                                                           
+zram0                                                                         
+cgroup2fs
+binder_linux          237568  0
+zram                   49152  0
+lz4hc_compress         20480  1 zram
+lz4_compress           24576  1 zram
