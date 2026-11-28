@@ -1,4 +1,4 @@
-<img width="1360" height="616" alt="image" src="https://github.com/user-attachments/assets/13e8efb1-bf49-4b15-9075-aa432f26be4e" /># Evidencias Prácticas - Fase 1
+ Evidencias Prácticas - Fase 1
 **Proyecto:** Eco-Android
 
 A continuación se presentan las validaciones técnicas del kernel y la gestión de memoria realizadas en el entorno virtual (Debian 13, Kernel 6.12).
